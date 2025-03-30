@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="Author" content="Dawid Ulanicki" /> 
+	    <meta name="Description" content="Opis strony" />
+        <meta title="Tabela">
+    </head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border: 4px solid #45b0e1;
+            border-top: 2px;
+            border-collapse: collapse;
+        }
+
+        table caption {
+            border: 4px #156082;
+            background-color: #262626;
+            color: white;
+            padding: 4px;
+        }
+
+        th {
+            border: 2px solid #3f4f00;
+            padding: 10px;
+        }
+
+        tr {
+            text-align: center;
+        }
+
+        thead tr th {
+            background-color: #fae2d5;
+        }
+
+        tbody tr td {
+            border: 2px solid #3f4f00;
+        }
+
+        #lowlabel {
+            background-color: #f6c5ac;
+        }
+
+        #cooler {
+            background-color: #f1a983;
+        }
+
+        .col-one td {
+            background-color: #bf4e14;
+        }
+
+        .col-two td {
+            background-color: #80340d;
+        }
+
+        .col-three td {
+            background-color: #80340d;
+        }
+        
+    </style>
+    <body>
+        <h3>Tutaj będzie tabela</h3><br><br><br>
+        <table>
+            <caption>Dane komputerowe - Dawid Ulanicki 2Kg2</caption>
+            <thead>
+                <tr>
+                    <th>Model karty graficznej</th>
+                    <th>Taktowanie bazowe pamięci</th>
+                    <th>Rozmiar pamięci</th>
+                    <th>Szyna pamięci</th>
+                    <th>Typ chłodzenia karty graficznej</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="col-one">
+                    <td>RTX 3070</td>
+                    <td>1500 MHz</td>
+                    <td>16 GB</td>
+                    <td>256-bit</td>
+                    <td rowspan="6" id="cooler">Aktywne</td>
+                </tr>
+                <tr class="col-one">
+                    <td>RTX 3080</td>
+                    <td>1440 MHz</td>
+                    <td>10 GB</td>
+                    <td>384-bit</td>
+                </tr>
+                <tr class="col-two">
+                    <td>RTX 4090</td>
+                    <td>2235 MHz</td>
+                    <td>24 GB</td>
+                    <td>384-bit</td>
+                </tr>
+                <tr class="col-two">
+                    <td>RTX 3060</td>
+                    <td>1320 MHz</td>
+                    <td>12 GB</td>
+                    <td>192-bit</td>
+                </tr>
+                <tr class="col-three">
+                    <td>RTX 3060 ti</td>
+                    <td>1410 MHz</td>
+                    <td>8 GB</td>
+                    <td>256-bit</td>
+                </tr>
+                <tr class="col-three">
+                    <td>RTX 3090</td>
+                    <td>1560 MHz</td>
+                    <td>24 GB</td>
+                    <td>384-bit</td>
+                </tr>
+                <tr>
+                    <td colspan="5" id="lowlabel">Dane Komputerowe</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+           
+        <a href="index.html">Powrót do strony głównej</a>
+    </body>
+</html>
